@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(to bottom right, #EBE1DF, #AFA789);
+}
+
+#header {
+    height:15%;
+    display:block;
+    background-color:#F2F0D7;
+    border-radius:5px;
+    margin-top:-10px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+h1 {
+    font-family:Papyrus;
+    margin:auto;
+    
+}
+
+form {
+    display: inline-block;
+    width:40%;
+    float:left;
+    border:solid black;
+    padding: 5px;
+    font-family:Baskerville;
+    position: relative;
+    top: 190px;
+    clear: both;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+#images {
+    display: inline-block;
+    width:40%;
+    float:right;
+    padding: 5px;
+    position:relative;
+    right:60px;
+    bottom: 7px;
+}
+
+#dice {
+  margin-bottom: -20px;
+}
+
+#guessbox {
+  display: inline-block;
+  border: solid black;
+  position: absolute;
+  border-radius: 5px;
+  padding-right: 35px;
+  margin-left: 50px;
+
+}
+
+#guess{
+  position: relative;
+  bottom: 4em;
+  
+}
+.roll {
+}
+
+.startover{
+  position: relative;
+  left:  26em;
+}
+
+.adopt {
+  position: relative;
+  left: 12em;
+}
+
+#remain {
+  position: relative; 
+  left: 10.3em;  
+} 
