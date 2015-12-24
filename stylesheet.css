@@ -19,8 +19,6 @@ h1 {
 }
 
 form {
-    display: inline-block;
-    width:40%;
     float:left;
     border:solid black;
     padding: 5px;
@@ -33,8 +31,6 @@ form {
 }
 
 #images {
-    display: inline-block;
-    width:40%;
     float:right;
     padding: 5px;
     position:relative;
@@ -47,11 +43,11 @@ form {
 }
 
 #guessbox {
-  display: inline-block;
+  display: inline;
   border: solid black;
   position: absolute;
   border-radius: 5px;
-  padding-right: 35px;
+  padding-right: 30px;
   margin-left: 50px;
 
 }
@@ -66,15 +62,17 @@ form {
 
 .startover{
   position: relative;
-  left:  26em;
+  float: right;
 }
 
 .adopt {
   position: relative;
-  left: 12em;
+  float: right;
 }
 
 #remain {
   position: relative; 
-  left: 10.3em;  
+  left:38%;
+  top: 40px;
+
 } 
