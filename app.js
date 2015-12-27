@@ -1,5 +1,4 @@
 //Stores the entire script in a bootup() function that is run when "Start Over" button is pressed, the game ends, and on the first line
-bootup();
 var bootup = function(){$(document).ready(function(){  
 /* **** Global Variables **** */
 //Creates empty variable where the player's guess will be stored
@@ -143,5 +142,15 @@ $overlay.click(function(){
 	bootup();
 });
 
+$('#guessbox').keypress(function(e) { 
+	//Triggered when 'Enter' is pressed 
+	if(e.which == 13)
+		//Will trigger a click on the submit button
+		{ $( ".roll" ).click();
+	}
+});
+
+
 });};
 /* **** Event Listeners/Handlers ****  */
+bootup();
